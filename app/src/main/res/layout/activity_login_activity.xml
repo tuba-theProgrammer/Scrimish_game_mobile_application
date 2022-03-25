@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#3F487A"
+    android:layout_height="match_parent"
+    tools:context=".Login_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            app:srcCompat="@drawable/crownimage" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="541dp"
+        android:gravity="top"
+        android:background="@drawable/layoutshape"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="120dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/almendra_display"
+            android:gravity="center"
+            android:text="Email:"
+            android:textColor="#DDD5D5"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/emailtxt"
+            android:layout_width="334dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#DDD5D5" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="188dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/almendra_display"
+            android:gravity="center"
+            android:text="Password:"
+            android:textColor="#DDD5D5"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/passtxt"
+            android:layout_width="336dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#DDD5D5" />
+
+        <Button
+            android:id="@+id/registerAccbtn"
+            android:layout_width="162dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="@font/almendra_display"
+            android:onClick="loginAccbtn"
+            android:text="LOGIN"
+            android:textColor="#3F487A"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="#DDD5D5" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="231dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/almendra_display"
+            android:gravity="center"
+            android:text="Don't have account?"
+            android:textColor="#DDD5D5"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/loginaccbtn"
+            android:layout_width="160dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="@font/almendra_display"
+            android:onClick="registerAccbtn"
+            android:text="REGISTER"
+            android:textColor="#3F487A"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="#DDD5D5" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

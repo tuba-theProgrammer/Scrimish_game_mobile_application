@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#3F487A"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".level_selection_activity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        app:srcCompat="@drawable/crownimage" />
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="566dp"
+        android:background="@drawable/layoutshape"
+        android:gravity="top"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/beginersLevelbtn"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="@font/almendra_display"
+            android:onClick="beginnerlevel"
+            android:text="Beginners Level"
+            android:textColor="#3F487A"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="#DDD5D5" />
+
+        <Button
+            android:id="@+id/advanceLevelbtn2"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="@font/almendra_display"
+            android:onClick="advancelevel"
+            android:text="Advance Level"
+            android:textColor="#3F487A"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="#DDD5D5" />
+
+        <Button
+            android:id="@+id/advanceLevelbtn"
+            android:layout_width="323dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="@font/almendra_display"
+            android:onClick="showpreviousrecord"
+            android:text="View Previous Record"
+            android:textColor="#3F487A"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="#DDD5D5" />
+    </LinearLayout>
+</LinearLayout>

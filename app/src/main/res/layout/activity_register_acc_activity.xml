@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#3F487A"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".RegisterAcc_activity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="220dp"
+        android:layout_height="149dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/crownimage" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="619dp"
+        android:background="@drawable/layoutshape"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/almendra_display"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="First Name:"
+            android:textColor="#DDD5D5"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/firstnametxt"
+            android:layout_width="334dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#DDD5D5" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/almendra_display"
+            android:gravity="center"
+            android:text="Last Name:"
+            android:textColor="#DDD5D5"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/lastnametxt"
+            android:layout_width="334dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#DDD5D5" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/almendra_display"
+            android:gravity="center"
+            android:text="Email:"
+            android:textColor="#DDD5D5"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/emailtxt"
+            android:layout_width="334dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#DDD5D5" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/almendra_display"
+            android:gravity="center"
+            android:text="Password:"
+            android:textColor="#DDD5D5"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="339dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="#DDD5D5" />
+
+        <Button
+            android:id="@+id/registerAccbtn"
+            android:layout_width="162dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="@font/almendra_display"
+            android:layout_gravity="center"
+            android:onClick="registerAccbtn"
+            android:text="REGISTER"
+            android:textColor="#3F487A"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="#DDD5D5" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="250dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/almendra_display"
+            android:gravity="center"
+            android:text="Already have an account?"
+            android:layout_gravity="center"
+            android:textColor="#DDD5D5"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/loginaccbtn"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+
+            android:background="@drawable/buttonshape"
+            android:fontFamily="@font/almendra_display"
+            android:layout_gravity="center"
+            android:onClick="loginAccbtn"
+            android:text="LOGIN"
+            android:textColor="#3F487A"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:backgroundTint="#DDD5D5" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
